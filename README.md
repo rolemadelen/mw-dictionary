@@ -1,4 +1,8 @@
 ## mw-dictionary
+[![Gem Version](https://badge.fury.io/rb/mw-dictionary.png)](https://badge.fury.io/rb/mw-dictionary)
+[![Ruby](https://img.shields.io/badge/Ruby-2.7.0-red)](#) 
+
+
 Merriam-Webster Dictionary [API](https://dictionaryapi.com/products/index) Wrapper.
 
 This dictionary API is for:
