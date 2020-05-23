@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "mw-dictionary"
-  s.version  = "0.0.1"
+  s.version  = "1.0.0"
   s.date     = "2020-05-23"
   s.summary  = "Merriam-Webster Collegiate Dictionary and Thesaurus API Wrapper"
   s.author   = ["Jione Eu"]

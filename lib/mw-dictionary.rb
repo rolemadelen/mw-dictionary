@@ -7,7 +7,6 @@ require 'cache/cache.rb'
 
 module MWDictionaryGem
   class Dictionary
-
     def initialize(dict_api_key, thes_api_key = nil)
       @cache = Cache.new
       @client = Client.new(dict_api_key, thes_api_key)
@@ -15,13 +14,21 @@ module MWDictionaryGem
       super()
     end
 
-    def search(word, thes=nil)
+    def search(word)
+      thes = nil
+      word, thes = word.split()
+      if thes != nil && thes != '-t'
+        puts "Invalid format (try '-t')."
+        exit(1)
+      end
+
       puts "[ #{word} ]"
-      res = @cache.get(word, thes)
-      if res 
+      res = @cache.search(word, thes)
+      if res
         puts res
         return
       end
+
       @thesaurus = !!thes
       @word = word
       url = ((@thesaurus) ? "#{@url}/thesaurus/json/" : "#{@url}/collegiate/json/") + @word
