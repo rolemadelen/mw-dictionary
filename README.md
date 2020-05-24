@@ -1,4 +1,4 @@
-## mw-dictionary
+## [mw-dictionary](https://rubygems.org/gems/mw-dictionary)
 [![Gem Version](https://badge.fury.io/rb/mw-dictionary.png)](https://badge.fury.io/rb/mw-dictionary)
 [![Ruby](https://img.shields.io/badge/Ruby-2.7.0-red)](#) 
 
