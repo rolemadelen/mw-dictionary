@@ -1,7 +1,7 @@
 ## [mw-dictionary](https://rubygems.org/gems/mw-dictionary)
 [![Gem Version](https://badge.fury.io/rb/mw-dictionary.png)](https://badge.fury.io/rb/mw-dictionary)
 [![Ruby](https://img.shields.io/badge/Ruby-2.7.0-red)](#) 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmuicode%2Fonline-judge)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjioneeu%2Fmw-dictionary)](https://hits.seeyoufarm.com)
 
 
 Merriam-Webster Dictionary [API](https://dictionaryapi.com/products/index) Wrapper.
