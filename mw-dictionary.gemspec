@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.homepage      = "https://rubygems.org/gems/mw-dictionary"
   s.license       = "MIT"
   s.metadata = {
-    "documentation_uri" => "https://github.com/jioneeu/mw-dictionary"
+    "documentation_uri" => "https://github.com/euisblue/mw-dictionary"
   }
 end
